@@ -1,0 +1,136 @@
+{
+  "plants_water_frequencies": [
+    {"key": "day", "title": "Todos os dias"},
+    {"key": "week", "title": "A cada semana"}
+  ],
+
+  "plants_environments": [
+    {"key": "arvores", "title": "Árvores"},
+    {"key": "frutiferas", "title": "Frutíferas"},
+    {"key": "ornamentais", "title": "Ornamentais"},
+    {"key": "ervas", "title": "Ervas"}
+  ],
+
+  "plants": [
+    {
+      "id": 1,
+      "name": "Ipê Amarelo",
+      "about": "O ipê amarelo é uma árvore nativa do Brasil, conhecida por sua beleza exuberante e suas flores amarelas vibrantes. \nO ipê amarelo prefere locais com bastante luz solar direta e solo bem drenado.",
+      "water_tips": "Durante os primeiros anos de crescimento, o ipê amarelo pode precisar de rega regular para estabelecer suas raízes. Regue 1 vez na Semana.",
+      "photo": "https://storage.googleapis.com/testeplants/ipe-amarelo-removebg-preview.svg",
+      "environments": ["arvores"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Pau-Brasil",
+      "about": "O Pau-Brasil é uma árvore histórica e emblemática do Brasil, conhecida por sua madeira de alta qualidade e sua importância histórica. \nO Pau-Brasil prefere solos bem drenados e climas quentes e úmidos. ",
+      "water_tips": ": Durante os primeiros anos de crescimento, o Pau-Brasil pode precisar de rega regular para estabelecer suas raízes. Regue 1 vez na Semana.",
+      "photo": "https://storage.googleapis.com/testeplants/pau-brasil-verao-1-removebg-preview.svg",
+      "environments": ["arvores"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Hortelâ",
+      "about": "A hortelã é uma planta perene que atrai polinizadores, como abelhas e borboletas, com suas flores pequenas e perfumadas. \nÉ melhor plantar em um local com sombra parcial, especialmente em regiões com climas quentes.",
+      "water_tips": "Durante os períodos de crescimento ativo, regue a hortelã regularmente para manter o solo úmido. Regue 1 vez ao Dia.",
+      "photo": "https://storage.googleapis.com/testeplants/ranco-700-112834167-removebg-preview.svg",
+      "environments": ["ervas"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Jabuticaba",
+      "about": "As jabuticabas são ricas em antioxidantes, vitaminas e minerais, oferecendo diversos benefícios para a saúde, como fortalecimento do sistema imunológico e melhoria da saúde cardiovascular. \nA jabuticabeira prospera em climas tropicais e subtropicais, preferindo solos bem drenados e ricos em matéria orgânica.",
+      "water_tips": " Quando regar, certifique-se de molhar profundamente o solo ao redor da jabuticabeira. Regue 1 vez na Semana.",
+      "photo": "https://storage.googleapis.com/testeplants/jabuticabeira-removebg-preview.svg",
+      "environments": ["arvores", "frutiferas"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Orquídea-Roxa",
+      "about": " Conhecida como a Rainha das Orquídeas, possui flores grandes e perfumadas em cores que variam do branco ao roxo",
+      "water_tips": "Regue o solo ao redor. Regue 1 vez no dia.",
+      "photo": "https://storage.googleapis.com/testeplants/do-branco-700-11701-removebg-preview.svg",
+      "environments": ["ornamentais"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Rosa do Deserto",
+      "about": "1° Luz Solar: Coloque a rosa do deserto em um local que receba luz solar direta por pelo menos 6 horas diárias.\n 2° Descanso no Inverno: Reduza a rega durante o inverno, quando a planta entra em período de dormência. ",
+      "water_tips": "3° Rega Moderada: Regue apenas quando o solo estiver completamente seco. Evite encharcamento, pois a planta é suscetível à podridão das raízes. Regue 1 vez na semana.",
+      "photo": "https://storage.googleapis.com/testeplants/rosa-do-deserto-2-removebg-preview.svg",
+      "environments": ["ornamentais"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Girassol",
+      "about": "Flores grandes e amarelas que seguem a trajetória do sol.",
+      "water_tips": "Regue sempre na terra e não as folhas. Regue 3 vezes na semana",
+      "photo": "https://storage.googleapis.com/testeplants/branco-gratis-vetor-removebg-preview.svg",
+      "environments": ["ornamentais"],
+      "frequency": {
+        "times": 3,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Heliconia",
+      "about": "Flores exóticas com brácteas coloridas em vermelho, laranja e amarelo, lembrando um bico de papagaio.",
+      "water_tips": "Regue moderadamente. Reque 4 vezes na semana.",
+      "photo": "https://storage.googleapis.com/testeplants/o-970006598-612x612-removebg-preview.svg",
+      "environments": ["ornamentais"],
+      "frequency": {
+        "times": 4,
+        "repeat_every": "day"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Limoeiro",
+      "about": "Árvore de pequeno a médio porte que produz frutos amarelos e ácidos. ",
+      "water_tips": "Nada de molhar as flores e folhas. Regue o solo 2 vezes na semana.",
+      "photo": "https://storage.googleapis.com/testeplants/537-612x612-removebg-previewlimoeiro.svg",
+      "environments": ["arvores", "frutiferas"],
+      "frequency": {
+        "times": 2,
+        "repeat_every": "week"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Bonsai",
+      "about": "A hortênsia é uma planta rústica e se adapta a diferentes tipos de soloso objetivo do bonsai é criar uma réplica em miniatura de uma árvore adulta em tamanho natural..",
+      "water_tips": "Mantenha a terra sempre húmida sem encharcar. Regue 1 vez no dia.",
+      "photo": "https://storage.googleapis.com/testeplants/bonsai-removebg-preview.svg",
+      "environments": ["ornamentais"],
+      "frequency": {
+        "times": 1,
+        "repeat_every": "week"
+      }
+    }
+  ]
+}
